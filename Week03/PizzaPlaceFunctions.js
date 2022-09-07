@@ -39,26 +39,25 @@ function preparePizza(list) {
     crust: list[1],
     toppings: list[2],
   };
+  console.log("...Cooking pizza");
   return object;
 }
-preparePizza(list);
+preparePizza(getPizzaOrder("small", "pan", "bacon", "pineapple"));
 
 //5
 //Create a servePizza function that has a parameter of a pizza Object logs a message that the pizza is ready and repeats the order, i.e. "Order up! Here's your large thick crust pizza with x, y, z, ... Enjoy!" outputs the same pizza Object that was passed in
 
-function servePizza() {
-  if (pizzaObject.toppings.length === 0) {
-    console.log(
-      `Order up! Here's your ${pizzaObject.size} ${pizzaObject.crust} cheese pizza!`
-    );
-  } else {
-    console.log(
-      `Order up! Here's your ${pizzaObject.size} ${pizzaObject.crust} crust pizza with ${pizzaObject.toppings}. Enjoy!`
-    );
-  }
+function servePizza(pizzaObject) {
+  console.log(
+    `Order up! Here's your ${pizzaObject.size} ${pizzaObject.crust} crust pizza with ${pizzaObject.toppings}. Enjoy!`
+  );
+  return pizzaObject;
 }
+
 //6
 //Call each function and (starting with preparePizza) use the returned value from the previous function as its input
+
+servePizza(preparePizza(getPizzaOrder("small", "pan", "cheese")));
 
 //Bouns//
 
