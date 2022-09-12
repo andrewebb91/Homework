@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(210, 154, 14);
+}
+h1 {
+  text-align: center;
+  font-family: tahoma;
+}
+
+p {
+  font-family: "Times New Roman";
+  font-size: 24px;
+}
+
+section1 {
+  font-style: italic;
+  font-size: 30px;
+}
+section2 {
+  font-style: italic;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+  font-family: tahoma;
+}
+img {
+  max-width: 3330px;
+  max-height: 333px;
+}
+p {
+  text-align: center;
+}
