@@ -11,14 +11,11 @@ p {
   font-size: 24px;
 }
 
-section1 {
+.Section1 {
   font-style: italic;
   font-size: 30px;
 }
-section2 {
-  font-style: italic;
-  font-size: 30px;
-}
+
 h2 {
   text-align: center;
   font-family: tahoma;
@@ -29,4 +26,11 @@ img {
 }
 p {
   text-align: center;
+}
+ol > li {
+  font-size: 20px;
+}
+
+ul > li {
+  font-size: 20px;
 }
