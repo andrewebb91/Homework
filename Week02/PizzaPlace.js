@@ -1,10 +1,9 @@
-let pizzaPlace = "DresPizza";
+let pizzaPlace = "WebbsPizza";
 let numberOfToppings = 3;
 console.log("pizzaPlace " + "numberOfToppings");
 
-pizzaPlace = "DreaPizza";
+pizzaPlace = "WebbsPizza";
 numberOfToppings = 3;
-
 console.log(pizzaPlace + numberOfToppings);
 
 console.log(typeof pizzaPlace);
