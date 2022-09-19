@@ -12,8 +12,7 @@ h1 {
 }
 
 img {
-  height: auto;
-  width: auto;
+  width: 75%;
 }
 
 div {
@@ -27,24 +26,35 @@ div {
 
 #bio {
   justify-content: space-evenly;
+  text-align: center;
 }
 #bio > li {
   padding: 2px;
+  list-style: none;
 }
 
 #pro {
   width: auto;
 }
-#stuff {
+#achievements {
+  list-style: none;
+  padding: 2px;
 }
-
+#achievements > li {
+  text-align: center;
+}
 #proCareer {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 375px) {
   #bio > ul {
     padding: 2px;
   }
+}
+
+#earlyCareer > img {
+  width: 75%;
 }
 #proCareer > img {
   width: 75%;
