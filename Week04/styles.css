@@ -22,6 +22,7 @@ h2 {
 img {
   max-width: 3330px;
   max-height: 333px;
+  justify-content: center;
 }
 p {
   text-align: center;
