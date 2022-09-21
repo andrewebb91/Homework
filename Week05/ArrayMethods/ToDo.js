@@ -1215,5 +1215,10 @@ const incompleteTask = todo.filter((todo) => todo.userId === 9);
 console.log(incompleteTask);
 
 // Find the number of user 9's incomplete tasks.
-const notDone = todo.filter((todo) => todo.completed === 9);
-console.log(notDone);
+// const notDone = todo.filter(
+//   (todo) => todo.completed === false && todo.userId === 9
+// );
+// console.log(notDone);
+
+// another way to complete
+const nF = incompleteTask.filter((task) => task.completed === false).length);
